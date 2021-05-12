@@ -1,0 +1,1 @@
+# openvino-docker-sales-kit
