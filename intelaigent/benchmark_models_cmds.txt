@@ -1,0 +1,12 @@
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v3-tf/FP32/yolo-v3-tf.xml -d CPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v3-tf/FP16/yolo-v3-tf.xml -d CPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v3-tf/FP16-INT8/yolo-v3-tf.xml -d CPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v3-tf/FP32/yolo-v3-tf.xml -d GPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v3-tf/FP16/yolo-v3-tf.xml -d GPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v3-tf/FP16-INT8/yolo-v3-tf.xml -d GPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v4-tf/FP32/yolo-v4-tf.xml -d CPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v4-tf/FP16/yolo-v4-tf.xml -d CPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v4-tf/FP16-INT8/yolo-v4-tf.xml -d CPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v4-tf/FP32/yolo-v4-tf.xml -d GPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v4-tf/FP16/yolo-v4-tf.xml -d GPU -api async -t 60
+python3 /opt/intel/openvino/deployment_tools/tools/benchmark_tool/benchmark_app.py -m /opt/intel/openvino_models/public/yolo-v4-tf/FP16-INT8/yolo-v4-tf.xml -d GPU -api async -t 60
