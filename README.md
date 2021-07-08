@@ -4,6 +4,7 @@
 
 ## Overview
 
+This is container with OpenVINO™ Toolkit pre-installed.
 
 ## Running Containers
 
