@@ -2,8 +2,6 @@
 [![Stable release](https://img.shields.io/badge/version-2021.3-green.svg)](https://github.com/openvinotoolkit/openvino/releases/tag/2021.3)
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-![SmartCity](./resources/smart_city_demo.gif)
-
 ## Overview
 
 This is container with OpenVINO™ Toolkit pre-installed.
@@ -41,6 +39,8 @@ Run smart city demo with GPU:
 ```
 $ docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY -v ~/Downloads:/mnt --device /dev/dri:/dev/dri --device-cgroup-rule='c 189:* rmw' --device-cgroup-rule='c 180:* rmw' -v /dev:/dev --group-add=$(stat -c "%g" /dev/dri/render*) -v /var/tmp:/var/tmp --ipc=host --net=host -u root --rm sertek/openvino:2021.3_developer_models /home/openvino/smartcity_demo.sh
 ```
+
+![SmartCity](./resources/smart_city_demo.gif)
 
 ## License
 This image is licensed under [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
