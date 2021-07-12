@@ -10,7 +10,7 @@ This is container with OpenVINO™ Toolkit pre-installed.
 
 - HW:
 - SW:
- - Base OS: Ubuntu 20.04
+  Base OS: Ubuntu 20.04
  - OpenVINO: 2021.3.394
 
 ## Running Containers
