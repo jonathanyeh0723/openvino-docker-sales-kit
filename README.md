@@ -6,6 +6,15 @@
 
 This is container with OpenVINO™ Toolkit pre-installed.
 
+## Requirements
+
+- HW:
+- SW:
+```
+Base OS:		Ubuntu 20.04
+OpenVINO: 	2021.3.394
+```
+
 ## Running Containers
 
 To pull this image, run:
