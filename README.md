@@ -63,3 +63,4 @@ and release your contribution under these terms.
 ## Support
 * [Sertek Inc., ](https://www.wpgholdings.com/yosung)
 * The [`openvino`](https://stackoverflow.com/questions/tagged/openvino) tag on StackOverflow\*
+* [GitHub Issues](https://github.com/openvinotoolkit/openvino/issues)
