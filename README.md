@@ -9,6 +9,8 @@ This is container with OpenVINO™ Toolkit pre-installed.
 ## HW Specifications and SW Dependencies
 
 - HW:
+    - CPU: 11th Gen Intel(R) Core(TM) i5-1145GRE @ 2.60GHz
+    - Memory Size: 4GiB 
 - SW:
     - Base OS: Ubuntu 20.04
     - OpenVINO: 2021.3.394
