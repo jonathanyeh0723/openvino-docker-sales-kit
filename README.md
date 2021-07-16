@@ -15,7 +15,7 @@ This is container with OpenVINO™ Toolkit pre-installed.
     - Base OS: Ubuntu 20.04
     - OpenVINO: 2021.3.394
 
-*CPU is 
+*It is suggested to use Intel's 11th-gen (Tiger Lake) as core processor. 
 
 ## Running Containers
 
