@@ -1,5 +1,4 @@
 # OpenVINO AI Sales Kit 
-[![Stable release](https://img.shields.io/badge/version-2021.3-green.svg)](https://github.com/openvinotoolkit/openvino/releases/tag/2021.3)
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Overview
